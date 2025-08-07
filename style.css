@@ -27,8 +27,9 @@ main { /* quadrado branco com 2 itens */
     padding: 10px;
     height: 400px;
     width: 700px;
-
     text-align: center;
+
+    p
 }
 
 section { /* os 2 itens */
