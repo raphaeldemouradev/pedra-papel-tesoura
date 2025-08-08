@@ -20,48 +20,65 @@ header h1 {
 }
 
 /* corpo */
-
-main { /* quadrado branco com 2 itens */
+main {
     background-color: white;
     margin: auto;
+    text-align: center;
     padding: 10px;
     height: 400px;
     width: 700px;
-    text-align: center;
-
-    p
 }
 
-section { /* os 2 itens */
+section.container {
+    display: flex;
+}
+
+div.resjogador, .resmaquina {
+    margin: auto;
     background-color: gray;
-    display: inline-block;
     border: 1px solid black;
+    border-radius: 5px;
 
     height: 300px;
     width: 340px;
 }
 
-div { /* botoes */
+/* botoes */
+section.escolhas {
+    display: flex;
+} 
+
+div.botoes, .botaobot {
     background-color: lightgray;
     border: 1px solid black;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
     width: 330px;
+    height: 30px;
     padding: 5px;
 }
 
 button {
-    padding: 5px;
-    margin: 0px 20px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 15px;
 }
 
 button:hover {
     background-color: lightblue;
     border: 2px solid black;
+    padding: 7px;
+}
+
+/* Resultado */
+section.resultado {
+    padding: 10px;
+    font-weight: bold;
 }
 
 /* footer */
-
 footer > p {
     color: white;
     font-size: 20px;
