@@ -10,6 +10,12 @@ body {
     background-color: rgb(0, 110, 255);
 }
 
+#resjogador, #resmaquina {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 /* cabeça */
 
 header h1 {
@@ -55,7 +61,7 @@ div.botoes, .botaobot {
     margin-top: 10px;
     border-radius: 5px;
     width: 330px;
-    height: 30px;
+    height: 35px;
     padding: 5px;
 }
 
@@ -63,19 +69,22 @@ button {
     padding: 6px;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 
 button:hover {
     background-color: lightblue;
     border: 2px solid black;
-    padding: 7px;
+    padding: 8px;
 }
 
 /* Resultado */
 section.resultado {
+    margin: auto;
     padding: 10px;
     font-weight: bold;
+    height: 20px;
+    width: 50px;
 }
 
 /* footer */
